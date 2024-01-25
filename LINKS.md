@@ -8,4 +8,5 @@ Quick Measures: https://github.com/gdeckler/MicrosoftHatesGregsQuickMeasures
 # PBI Theme Templates
 
 PBI Theme Templates: https://github.com/MattRudy/PowerBI-ThemeTemplates
+
 Documentation: https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
