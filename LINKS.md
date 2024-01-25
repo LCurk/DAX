@@ -1,8 +1,11 @@
 Links: https://github.com/NajiElKotob/Awesome-Power-BI/blob/master/README.md
 
-Bravo Studio Time Intelligence: https://youtu.be/hvY6SJrq3Ys?si=vqobIdvK_OsXfHGu&t=1250
-
 Quick Measures: https://github.com/gdeckler/MicrosoftHatesGregsQuickMeasures
+
+
+# External Tools
+
+Bravo Studio Time Intelligence: https://youtu.be/hvY6SJrq3Ys?si=vqobIdvK_OsXfHGu&t=1250
 
 
 # PBI Theme Templates
