@@ -1,0 +1,218 @@
+﻿// Ctrl + space : suggestion on how to continue with json code
+
+
+{
+    "name": "Standard Report",
+    "$schema":"https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.124.json",
+    "dataColors": [
+        "#00215D",
+        "#3B7897",
+        "#9CA5E5",
+        "#64A0BF",
+        "#E0E0E0",
+        "#FAB8B8",
+        "#C0EABC",
+        "#F0E199"
+    ],
+    "bad": "#E60000",
+    "neutral": "#E7C838",
+    "good": "#089B4A",
+    "minimum": "#E60000",
+    "center": "#E7C838",
+    "maximum": "#089B4A",
+    "textClasses": {
+        "label": {
+            "color": "#000000",
+            "fontFace": "'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif",
+            "fontSize": 12
+        },
+        "callout": {
+            "color": "#000000",
+            "fontFace": "'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif",
+            "fontSize": 25
+        },
+        "title": {
+            "fontFace": "'Segoe UI Semibold', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+            "fontSize": 15
+        }
+    },
+    "foreground": "#000000",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "transparency": 100
+                    }
+                ],
+                "border": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#CCCCCC"
+                            }
+                        },
+                        "show": true
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "transparency": 100
+                    }
+                ],
+                "visualTooltip": [
+                    {
+                        "titleFontColor": {
+                            "solid": {
+                                "color": "#CCCCCC"
+                            }
+                        },
+                        "valueFontColor": {
+                            "solid": {
+                                "color": "#F0F3F5"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    }
+                ],
+                "visualHeaderTooltip": [
+                    {
+                        "titleFontColor": {
+                            "solid": {
+                                "color": "#CCCCCC"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 100,
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "titleSize": 10,
+                        "headerSize": 10
+                    }
+                ],
+                "filterCard": [
+                    {
+                        "$id": "Applied",
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#F3F2F1"
+                            }
+                        },
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "textSize": 10,
+                        "transparency": 100
+                    },
+                    {
+                        "$id": "Available",
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "textSize": 10,
+                        "transparency": 100
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 100
+                    }
+                ],
+                "outspace": [
+                    {
+                        "transparency": 100
+                    }
+                ]
+            }
+        }
+    }
+
+    "visualStyles":{
+        "*": {
+            "*": {
+                "*": [{
+                    "wordWrap": true
+                }],
+                "categoryAxis": [{
+                    "gridlineStyle": "dotted"
+                }],
+                "filterCard": [
+                {
+                    "$id": "Applied",
+                    "foregroundColor": {"solid": {"color": "#252423" } }
+                },
+                {
+                    "$id":"Available",
+                    "border": true
+                }
+                ],
+
+                "padding": [
+                    {"bottom": 20},
+                    {"left": 20},
+                    {"top": 20},
+                    {"right": 20}
+                ],
+                "border": [{"radius": 20}]
+                
+            }
+        },
+        "scatterChart": {
+            "*": {
+                "bubbles": [{
+                    "bubbleSize": -10
+                }]
+            }
+        },
+        "lineChart": {
+            "*": {
+                "padding": [
+                    {"bottom": 20},
+                    {"left": 20},
+                    {"top": 20},
+                    {"right": 20}
+                ],
+                "border": [{"show": true, "color":{"solid": {"color": "ffffff"}}, "radius": 0}]
+            }
+        }
+
+    }
+    }
